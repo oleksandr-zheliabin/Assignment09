@@ -47,6 +47,22 @@
 //STEP 4 - Write a JavaScript function that generates a string id (specified length) of random characters.
 
 
+// function generateId(num) {
+
+//     let text = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+//     let value = ''
+
+//     for (let i=0; i<num; i++) {
+
+//         index = Math.round(Math.random() * 62)
+//         value = value + text.charAt(index)
+//     }
+
+//     return value
+
+// }
+
+// console.log(generateId(8))
 
 //STEP 5 - Write a JavaScript function that accepts a list of country names as input and returns the longest
 //         country name as output.
